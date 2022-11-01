@@ -95,7 +95,7 @@
                         
                     } 
 
-                    echo("Please reload the page.");
+                    echo("Your key has expired. Please reload the page.");
 
                     $filewrite = fopen($keyfilename, "w");
 
